@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li {
+    list-style: none;
+}
+header{
+    background-color: white;
+    color: silver;
+    /*width: 1024px;*/
+    height: 35px;
+    margin:0 auto;
+}
+.left{
+    width: 1024px;
+    margin: 0 auto;
+}
+.left img{
+    width: 30px;
+    height: 30px;
+}
+.left p{
+    float: right;
+    font-size: 38px;
+    display: inline-block;
+    font-weight: bolder;
+    line-height: 20px;
+    margin-left: 120px;
+    margin-top: 9px;
+}
+.solid{
+    height: 10px;
+}
+#banner{
+    width: 1082px;
+    height: 610px;
+    margin: 0 auto;
+}
+#list .icon{
+    height:140px ;
+    width:1100px;
+    margin: 0 auto;
+}
+#list .icon ul{
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+#list .icon ul #li1,#li2,#li3,#li4{
+    width: 100px;
+    height:100px ;
+    float: left;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+#li1 a{
+    width: 100px;
+    height:100px;
+}
+#li2 a{
+    width: 100px;
+    height:100px;
+}
+#li3 a{
+    width: 100px;
+    height:100px;
+}
+#li4 a{
+    width: 100px;
+    height:100px;
+}
+#li4 a:link,a:visited{
+    display: block;
+    width: 100px;
+    height: 100px;
+    opacity: .2;
+}  /*链接、点击后*/
+#li1 a:link,a:visited{
+    display: block;
+    width: 100px;
+    height: 100px;
+    opacity: .2;
+}  /*链接、点击后*/
+#li2 a:link,a:visited{
+    display: block;
+    width: 100px;
+    height: 100px;
+    opacity: .2;
+}  /*链接、点击后*/
+#li3 a:link,a:visited{
+    display: block;
+    width: 100px;
+    height: 100px;
+    opacity: .2;
+}  /*链接、点击后*/
+#li1 a:link,a:visited{
+    background: url("../images/icon3.png");
+}
+#li2 a:link,a:visited{
+    background: url("../images/icon1.png");
+}
+#li3 a:link,a:visited{
+    background: url("../images/icon3.png");
+}
+#li4 a:link,a:visited{
+    background: url("../images/icon1.png");
+}
+#li1 a:hover{
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}  /*鼠标经过*/
+#li2 a:hover{
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}  /*鼠标经过*/
+#li3 a:hover{
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}  /*鼠标经过*/
+#li4 a:hover{
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+}  /*鼠标经过*/
+
+#text{
+    margin: 0 auto;
+    /*position: relative;*/
+}
+#text #lefticon{
+    float: left;
+    width:30px;
+    height:30px;
+}
+#text #lefticon img{
+    width: 100%;
+    margin-top: 26px;
+    margin-left: 90px;
+}
+#text h3{
+    background: url("../images/bg.jpg") repeat-x;
+    height: 70px;
+    width: 100%;
+    font-size: 23px;
+    font-family: '微软雅黑', 'Arial';
+    font-weight: lighter;
+    position: relative;
+    margin-top: 3px;
+    margin-left: 120px;
+}
+#text h3 span{
+    margin-top: 20px;
+    display: inline-block;
+    background: #f2f2f2;
+    padding: 5px;
+    position: absolute;
+
+}
+#text .newlist{
+    width:1100px ;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #cecfd1;
+    column-count: 2;
+    /*定义栏目列数*/
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -ms-column-count:2 ;
+    -o-columns:2 ;
+    column-gap: 10px;
+    /*列表间距*/
+    -webkit-column-gap:30px;
+    -moz-column-gap:30px;
+    -ms-column-gap: 30px;
+    -o-column-gap:30px;
+}
+.newlist li,h2{
+    background: #fff;
+    font-family: serif;
+    float: left;
+}
+.newlist .new_more{
+    width: 45px;
+    float: left;
+    background: #cecfd1;
+}
+.newlist li img{
+    width: 80%;
+}
+.newlist .new_more h2{
+    font-size: 40px;
+    padding: 0;
+    line-height: 29px;
+    font-weight:lighter;
+}
+.newlist li .list_more{
+    width: 400px;
+    height: 200px;
+    margin-left: 20px;
+}
+.newlist li .list_more>div h3{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: serif;
+}
+
+.newlist li .list_more p {
+    font-family:'微软雅黑','Arial';
+    font-size: 20px;
+}
+footer{
+    height: 60px;
+}
+footer>div{
+    height: 90px;
+    width:400px ;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+footer img{
+    float: left;
+    width: 90px;
+    height: 90px;
+}
+
+footer>div p{
+    padding-left: 20px;
+    line-height: 90px;
+    padding-right: 15px;
+    font-size: 20px;
+    float: left;
+}
